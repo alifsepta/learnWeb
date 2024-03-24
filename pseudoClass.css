@@ -12,6 +12,14 @@
     font-style: italic;
 }
 
-li:nth-child(3n) a {
+li:nth-child(odd) a {
     color: green;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}
+
+p:last-of-type:active {
+    color: red;
 }
