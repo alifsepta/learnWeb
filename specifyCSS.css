@@ -10,6 +10,6 @@ ul#sarapan li {
     color: green;
 }
 
-.favorit {
+ul#sarapan li.favorit {
     color: red;
 }
